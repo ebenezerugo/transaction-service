@@ -1,0 +1,33 @@
+# Binaries
+/transaction-service
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Environment files
+.env
+*.env
+
+# Test output
+*.test
+*.out
+coverage.out
+coverage.html
+
+# Go build cache
+/vendor/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
