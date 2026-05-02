@@ -17,7 +17,7 @@ INSERT INTO cbn_settings (setting_key, setting_value, description) VALUES
     ('daily_transaction_limit_tier2', '5000000', 'Daily transaction limit for tier 2 accounts (NGN)'),
     ('daily_transaction_limit_tier3', '50000000', 'Daily transaction limit for tier 3 accounts (NGN)'),
     ('single_transaction_limit_nip', '10000000', 'Single NIP transfer limit (NGN)'),
-    ('audit_retention_days', '2557', 'Number of days to retain audit logs (7 years including leap days per CBN)'),
+    ('audit_retention_days', '2556', 'Number of days to retain audit logs (7 years ~2556 days including leap years per CBN)'),
     ('reporting_currency', 'NGN', 'Base reporting currency as per CBN regulation'),
     ('nibss_nip_enabled', 'true', 'Whether NIBSS NIP transfers are enabled'),
     ('transaction_timeout_seconds', '30', 'Transaction processing timeout in seconds')
