@@ -1,4 +1,4 @@
-FROM golang:1.21-bullseye AS builder
+FROM golang:1.23-bullseye AS builder
 
 RUN apt-get update && apt-get install -y librdkafka-dev pkg-config && rm -rf /var/lib/apt/lists/*
 

@@ -49,7 +49,7 @@ All API endpoints require `Authorization: Bearer <token>` header.
 
 ### Prerequisites
 
-- Go 1.21+
+- Go 1.23+
 - librdkafka-dev
 - Docker & Docker Compose
 
